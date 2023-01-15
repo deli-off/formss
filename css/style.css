@@ -93,7 +93,7 @@ span {
 }
 
 .box {
-    margin-bottom: 62px;
+    margin-bottom: 82px;
 }
 
 .form_button {
@@ -116,6 +116,15 @@ span {
 }
 
 .error-icon {
-    display: none;
     transform: translateX(280px) translateY(-50px);
+    opacity: 0;
+}
+
+.error-icon-active {
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.error {
+    border: 2px solid red;
 }
