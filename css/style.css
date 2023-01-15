@@ -44,6 +44,11 @@ label,input {
     display: block;
 }
 
+.all,.counter {
+    font-size: 16px;
+    color: black ;
+}
+
 .required {
     padding: 10px;
     background: #FFFFFF;
@@ -55,10 +60,7 @@ label,input {
 
 span {
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
-    font-size: 11px;
-    line-height: 13px;
     color: #595959;
 }       
 
